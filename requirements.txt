@@ -1,0 +1,22 @@
+# tg-upload GUI - Requirements
+# Windows GUI version of tg-upload
+
+# Core dependencies
+pyrogram==2.0.106
+tgcrypto==1.2.5
+httpx
+
+# Image processing
+pillow==10.0.0
+
+# Video/Audio processing (optional - needed for video features)
+moviepy==1.0.3
+
+# GUI Framework
+customtkinter==5.2.0
+
+# Utility
+prettytable==3.8.0
+
+# Installation:
+# pip install -r requirements.txt

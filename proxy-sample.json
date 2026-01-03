@@ -1,0 +1,30 @@
+{
+  "example_socks5": {
+    "scheme": "socks5",
+    "hostname": "127.0.0.1",
+    "port": 1080,
+    "username": "",
+    "password": ""
+  },
+  "example_socks5_auth": {
+    "scheme": "socks5",
+    "hostname": "192.168.1.1",
+    "port": 1080,
+    "username": "my_username",
+    "password": "my_password"
+  },
+  "example_http": {
+    "scheme": "http",
+    "hostname": "proxy.example.com",
+    "port": 8080,
+    "username": "",
+    "password": ""
+  },
+  "example_https": {
+    "scheme": "https",
+    "hostname": "secure-proxy.example.com",
+    "port": 443,
+    "username": "",
+    "password": ""
+  }
+}

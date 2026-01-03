@@ -1,0 +1,10 @@
+{
+  "current_profile": null,
+  "theme": "dark",
+  "default_download_dir": "downloads",
+  "default_split_dir": "split",
+  "default_combine_dir": "combine",
+  "default_thumb_dir": "thumb",
+  "auto_check_updates": true,
+  "last_operations": []
+}

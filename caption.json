@@ -1,0 +1,27 @@
+{
+  "simple": {
+    "text": "File uploaded successfully!",
+    "mode": "DEFAULT",
+    "description": "Simple notification"
+  },
+  "detailed": {
+    "text": "File: {file_name}\nSize: {file_size_mb:.2f} MB\nUploaded on: {modification_time[2]}/{modification_time[1]}/{modification_time[0]}",
+    "mode": "DEFAULT",
+    "description": "Detailed file info with size and date"
+  },
+  "hash_info": {
+    "text": "{file_name}\n\nSHA256: {file_sha256}\nMD5: {file_md5}",
+    "mode": "DEFAULT",
+    "description": "File with hash checksums"
+  },
+  "minimal": {
+    "text": "{file_name}",
+    "mode": "DISABLED",
+    "description": "Just filename, no formatting"
+  },
+  "html_format": {
+    "text": "<b>{file_name}</b>\n<i>Size: {file_size_mb:.2f} MB</i>",
+    "mode": "HTML",
+    "description": "HTML formatted caption"
+  }
+}

@@ -1,0 +1,30 @@
+# Telegram session files
+*.session
+*.session-journal
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config
+config.json
+caption.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+venv/
+.env
+.venv
+env/
+.Env
